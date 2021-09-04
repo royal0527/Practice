@@ -1,0 +1,72 @@
+Git:It is Distributed version control system.
+----
+SCM-Software configuration management.
+	-Source code management.
+	
+Trunck based Development.
+------------------------
+Creating new File and pulling request and resolving the confilicts and merging two files.
+
+
+create a repository 
+create file
+make commits,
+
+for update new things we can create branch and commit it.
+
+
+after that we can merge the branch with main. after resolving some conflicts.
+
+
+git HUB:
+========
+Website to upload your repository online
+provides backup
+provides visual interface to your repository
+makes collaboration easier
+
+GIT !=GITHUB
+GIT is version control system,where as gitHUB is website where you can upload ur 
+
+====================================================================================
+git commands
+
+git config --global user.email "YourGmail"
+git config --global  user.password "your password"
+
+ 
+git init -to initialize tracking floder and files
+git status -to know the 
+git add
+git commit -m"comment"
+git remote add origin https://github.com/royal0527/Practice
+
+git push -u origin master
+
+git log
+
+git --help
+============
+Step 5 :adding to remote repository
+
+Git : Branching and merging
+=====
+What are branches
+how to create branch
+how to checkout branch
+how to merge branch to master
+how to delete branch(local and remote)
+
+Step 1:Create branchesgit branch " name"
+
+step 2:checkout brnach
+git checkout "branchname"
+
+step 3:Merge new branch in master  branch
+git  merge "branchname"
+
+step 4 :delete branch
+git branch -d"brnahc name" --this will delete from local
+git push origin --delete "branchname" form repo
+
+	
